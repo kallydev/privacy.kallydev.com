@@ -1,0 +1,39 @@
+@media (prefers-color-scheme: dark) {
+    .markdown-body {
+        background: none;
+        color: #F5F5F5;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .markdown-body {
+        background: none;
+        color: #212121;
+    }
+}
+
+.markdown-body ul > li {
+    list-style-type: disc;
+}
+
+.markdown-body ol > li {
+    list-style-type: decimal;
+}
+
+.markdown-body h1 {
+    border: none;
+}
+
+.markdown-body h2 {
+    border: none;
+}
+
+.markdown-body h2:before {
+    content: "#";
+    margin-right: 8px;
+    color: rgb(59, 130, 246);
+}
+
+.markdown-body h3 {
+    color: rgb(59, 130, 246);
+}
